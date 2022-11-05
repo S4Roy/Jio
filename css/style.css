@@ -1,0 +1,81 @@
+section.container {
+  display: flex;
+  justify-content: center;
+}
+
+.promo-card {
+  margin: 0.5rem;
+  position: relative;
+  outline: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f3cc9;
+  border-radius: 1rem;
+}
+
+/* .promo-card-content {
+  flex: 1 1 30%;
+} */
+.promo-card-content-body {
+    padding: 1.5rem;
+  }
+  
+/* .promo-card-image {
+  flex: 1 1 70%;
+} */
+.promo-card-caption span {
+  background-color: white;
+  padding: 5px;
+  border-radius: 6px;
+  color: blue;
+  font-family: JioType, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 0.75rem;
+  letter-spacing: -0.06px;
+  line-height: 1.3333333333;
+}
+
+
+.promo-card-caption span {
+  background-color: white;
+  padding: 5px;
+  border-radius: 6px;
+  color: blue;
+  font-family: JioType, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 0.75rem;
+  letter-spacing: -0.06px;
+  line-height: 1.3333333333;
+}
+h4.promo-card-title {
+  font-family: JioType, helvetica, arial, sans-serif;
+  font-weight: 900;
+  text-transform: none;
+  font-size: 2rem;
+  letter-spacing: -0.96px;
+  line-height: 1.125;
+  color: white;
+}
+button.promo-card-button {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #061951;
+  background-color: #9eb5fa;
+  border: transparent;
+  font-weight: 700;
+}
+span.curve {
+    position: absolute;
+    background-color: #0f3cc9;
+    height: 5rem;
+    width: 100%;
+    top: 242px;
+    border-radius: 50%  50% 0 0;
+}
+.promo-card-content {
+    z-index: 1;
+    margin-top: -19px;
+}
